@@ -34,7 +34,7 @@ module.exports = {
       image: fileName,
     });
 
-    req.io.imit('post', post);
+    req.io.emit('post', post);
 
     return res.json(post);
   }
