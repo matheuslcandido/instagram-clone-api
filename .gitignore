@@ -1,6 +1,6 @@
 # Upload files
-!uploads/*.jpg
-!uploads/*.png
+!uploads/resized/*.jpg
+!uploads/resized/*.png
 
 # Logs
 logs
